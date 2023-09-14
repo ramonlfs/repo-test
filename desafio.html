@@ -1,0 +1,192 @@
+<html>
+	<head> 
+		<title> Desafio HTML </title>
+    </head>		
+	<body>
+       <h1 id="inicio">Introdução ao HTML</h1>
+       <hr>
+       <h2>Índice</h2>
+       <ul>
+            <li><a href="#insp">Aula 1 - Inspecionar Elementos</a></li>
+            <li><a href="#estr">Aula 2 - Estrutura Básica do HTML</a></li>
+            <li><a href="#fala">Aula 3 - Falando de TAGs</a></li>
+            <li><a href="#atri">Aula 4 - Atributos das Tags</a></li>
+            <li><a href="#text">Aula 5 - Textos ou Tipografia</a></li>
+            <li><a href="#list">Aula 6 - Listas Ordenadas e não Ordenadas</a></li>
+            <li><a href="#link">Aula 7 - Links</a></li>
+            <li><a href="#refe">Referências</a></li>
+            
+       </ul>
+        
+        <h2 id="insp">Aula 1 - Inspecionar Elementos</h2>
+        <small><a href="#inicio">Voltar ao topo</a></small>
+        <p>É uma Ferramenta com vários tipos de recursos para entendermos mais como determinada página foi criada.
+            Ao pressionar a tecla F12 do teclado, abrirá a ferramente e na aba Elementos, é possível visualizar o HTML da página em questão.
+            Quando quisermos verificar como determinado ponto da tela foi criado, basta clicar em "Selecionar um elemento na página para ser inspecionado" (canto superior esquerdo da tela) ou pressionar o atalho Ctrl + Shift + C. Basta passar o mouse por cima do elemento desejado e na tela de inspeção irá mostrar o código usado para gerá-lo.</p>
+        
+        <h2 id="estr">Aula 2 - Estrutura Básicado HTML</h2>
+        <small><a href="#inicio">Voltar ao topo</a></small>
+        <p>Sempre que iniciar um projeto, é recomendável que abra uma pasta com o nome do seu Projeto e o seu primeiro, ou seja, a primeira página tenha o nome de "index.html", não é uma obrigação, mas por tradiçao do mundo da Programação, os desenvolvedres aderiram a essa nomeclatura para generalizar o processo.</p>
+
+        <h3>O HTML consistem em:</h3>
+
+        <h4>1 - TAGs:</h4>
+        <p>Toda TAG no HTML e formada pelo sinal de menor "<", uma palavra "xxx" e um sinal de maior ">", como no exemplo:
+        type="texto" < html> - essa é uma tag para informar ao navegar que tudo que estiver sendo escrito após ela, é referente ao mundo HTML.
+        As Tags abrem e fecham o comando. Usando o mesmo exemplo, usamos a tag <html> para abrir a linha de comando  fechamdos acrescentando o sinal de barra "/" após sinal de menos, conforme abaixo:</p>
+        <p>< html> ... < /html>.</p>
+
+        <h4>2 - Cabeçalho:</h4>
+        <p>O Cabeçaho é tudo aquilo que irá carregar antes de exibrir para o usuário e composto pela tag < head> ... < /head>. </p>
+        
+        </p>< html>				        -Abertura do Mundo HTML	</p>
+        <blockquote>< head> < / head>	-Cabeçalho</blockquote>
+        <p>< /html>			            -Fechamento do Mundo HTML </p>
+      
+        <h4>3 - Corpo:</h4>
+        <p>O Corpo é toda informaçao que será apresentada para o usuário e é composto pela tag < body> ... < /body> </p>
+
+        <p>< html>				-Abertura do Mundo HTML		</p>
+        <blockquote> < head> < /head>-Cabeçalho </blockquote>
+        <blockquote>< body>-Abertura do Corpo da Página</blockquote>
+        <blockquote>< /body>		    -Fechamento do Corpo da Página</blockquote>
+        <p>< /html>			-Fechamento do Mundo HTML</p>
+     
+        <p>Detro do Cabeçalho < head>, existe uma tag chama < title> < /title>, que é o título da página, conforme exemplo abaixo:</p>
+        <p>< html>				-Abertura do Mundo HTML		</p>
+        <blockquote> < head></blockquote>
+        <blockquote><blockquote>< title> Meu Primeiro HTML < /title></blockquote></blockquote>
+        <blockquote>< /head> </blockquote>
+        <blockquote>< body>-Abertura do Corpo da Página</blockquote>
+        <blockquote>< /body>		    -Fechamento do Corpo da Página</blockquote>
+        <p>< /html>			-Fechamento do Mundo HTML</p>
+        
+
+        <h2 id="fala">Aula 3 - Falando de TAGs</h2>
+        <small><a href="#inicio">Voltar ao topo</a></small>
+        <p>Existem vários tipos de Tags, cada uma com sua própria função. Abaixo segue alguns exemplos de tags.</p>
+
+        <p>< i> < /i> - deixa a letra em Itálico</p>
+        <p>< strong> < /strong> - deixa a letra em Negrito</p>
+        <p>< sup> < /su> - para colcar a letra na parte superior da linha, semelhante ao expoenta, na potência matemática.</p>
+        <p>< u> < /u> - sublinhar o texto</p>
+
+        <p>Algumas tags não possuem a Tag de fechamento, ou seja, ela por si só, já um comando.</p>
+        <p>< input ... /> - gera um campo para o usuário digitar algo no navegador.</p>
+        <p>< img ... /> - inserir uma imagem na sua página</p>
+
+        <h2 id="atri">Aula 4 - Atributos das Tags</h2>
+        <small><a href="#inicio">Voltar ao topo</a></small>
+        <p>Atributos são propriedades que cada tag pode ter. Alguns atributos são mais gertais, ou seja, nem todas as tags podem ter e outras que são específicas.</p>
+
+        <h3>As Genérias:</h3>
+        <p>id="..." é um tag  referete a indicador e serve parea indicar qual elemento o usuário quer manipular.</p>
+        <p>style= "..." é usado para formatar algum elemento no HMTL e CSS</p>
+        <p>class="..." é usado para classificar um determinado elemtno. Quando o elemento é classificado, todo aquele, que estiver com a mesma classificação será alterado.</p>
+
+        <h3>As específicas:</h3>
+        <p>< input ... /> - gera um campo para o usuário digitar algo no navegador.</p>
+        <p>type="..." - é usado para especificar o tipo de conteúdo que aparecerá ou deve ser preenchido pelo usuário no navegador</p>
+        <p>< img ... /> - é uma tag que serve para gerar uma imagem e ela precisa da tag src=" endereço da imagem'</p>
+        <p>< img src="endereço da imagem a ser inserida na página." /></p>
+        <p>width - serve para alterar a largura da imagem.</p>
+
+        <h2 id="text">Aula 5 - Textos ou Tipografia</h2>
+        <small><a href="#inicio">Voltar ao topo</a></small>
+        <p>Texto é basicamente tudo que o usuári irá encontrar no navegado.
+            Existem várias tipografias. é um conjuto de tags que servem para deixar a sua página com mais facilidade de se loicalizar
+            Usando como exem as tags do grupo H (higer) cabeçalho, temos várias opções para serem usadas.
+        </p>
+        <p>< html> </p>
+        <blockquote> < head>< title> Meu Primeiro HTML < /title> < /head>	</blockquote>
+        <blockquote> < body> </blockquote>
+                    <blockquote> <blockquote> < h1>Dio.me< /h1> é a palavra que ficará no cabeçalho da página </blockquote></blockquote>
+                    <blockquote><blockquote>< h2>Implemente o seu futuro global agora! < /h2> - é um subtítulo da página</blockquote></blockquote>
+                    <blockquote><blockquote>< p>Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo 
+                        < /p> - parágrafo</blockquote></blockquote>
+                    <blockquote><blockquote>< /blockquote> - serve para citações ou uma observação referente a um elemento.< /blockquote></blockquote> </blockquote>
+        <blockquote> < /body> </blockquote>
+        <p>< /html> </p>
+
+        <h2 id="list">Aula 6 - Listas Ordenadas e não Ordenadas</h2>
+        <small><a href="#inicio">Voltar ao topo</a></small>
+        <p>As listas são recursos que serve para apresentar os tópicos de um texto. Elas podem ser divididas em Ordenadas e Não Ordenadas.
+            Nas listas Ordendas os tópicos são apresentadas através de uma sequência numérica, enquando as Não Ordenadas, por pontos.
+            As listas são represtadas por tags que percisam outra tags para sua exibição no navegador.
+            </p>
+        
+        <h3>Ordenadas</h3>
+        <p>< ol> < /ol> - Order list, também chamada de Tag pai.</p>
+        <p>< li> < /li> - List Item, tamém chamada de Tag filha.</p>
+        <p>< html> </p>
+        <blockquote> < head>< title> Meu Primeiro HTML < /title> < /head>	</blockquote>
+        <blockquote> < body> </blockquote>
+                    <blockquote> <blockquote> < ol> Tag Pai </blockquote></blockquote>
+                    <blockquote><blockquote> <blockquote>< li>... < /li> - Tag Filha</blockquote></blockquote></blockquote>
+                    <blockquote><blockquote> <blockquote>< li>... < /li> - Tag Filha</blockquote></blockquote></blockquote>
+                    <blockquote><blockquote> <blockquote>< li>... < /li> - Tag Filha</blockquote></blockquote></blockquote>
+                    <blockquote> <blockquote> < /ol> </blockquote></blockquote>
+        <blockquote> < /body> </blockquote>
+        <p>< /html> </p>
+
+        <h3>Não Ordenadas</h3>
+        <p>< ul> < /ul> - Unorder list, também chamada de Tag pai.</p>
+        <p>< li> < /li> - List Item, tamém chamada de Tag filha.</p>
+        <p>< html> </p>
+        <blockquote> < head>< title> Meu Primeiro HTML < /title> < /head>	</blockquote>
+        <blockquote> < body> </blockquote>
+                    <blockquote> <blockquote> < ul> Tag Pai </blockquote></blockquote>
+                    <blockquote><blockquote> <blockquote>< li>... < /li> - Tag Filha</blockquote></blockquote></blockquote>
+                    <blockquote><blockquote> <blockquote>< li>... < /li> - Tag Filha</blockquote></blockquote></blockquote>
+                    <blockquote><blockquote> <blockquote>< li>... < /li> - Tag Filha</blockquote></blockquote></blockquote>
+                    <blockquote> <blockquote> < /ul> </blockquote></blockquote>                                     
+        <blockquote> < /body> </blockquote>
+        <p>< /html> </p>
+
+        <h2 id="link">Aula 7 - Links</h2>
+        <small><a href="#inicio">Voltar ao topo</a></small>
+        <p>É uma ferramente que serve para que seja possíve navegar no site, ou seja, ao clicar em algum elemento a página seja direcionada a outro ponto da tela, assim como també nos direcionar a outra página da web.</p>
+        <p>A tag utilizada é a < a ...> - anchor, que quer dizer âncora no Português.</p>
+        <p>Dentro da Tag, vai ser inserida outra tag "href", que serve para referenciar o local em qur o link vai direcionar. No exemplo abaixo é o site da Dio.me.
+        </p>
+        <p>Existe uma opção de redirecionar o site para outra página ou para a mesma. 
+        </p>
+        <p>A tag tagert é a resposável por definir em qual aba será aberto o link.</p>
+        <p>Para abrir na mesma aba, é usada taget="self", já para usar em outra página, é usada target="blank".</p>
+        <p>É possível também adcionar um balãozinho em cima do elemeto que está ancorado
+        </p>
+
+        <p>< html> </p>
+        <blockquote> < head>< title> Meu Primeiro HTML < /title> < /head>	</blockquote>
+        <blockquote> < body> </blockquote>
+        <blockquote> <blockquote> < ul> </blockquote></blockquote>
+        <blockquote><blockquote> <blockquote>< li> </blockquote></blockquote></blockquote>
+        <blockquote><blockquote><blockquote><blockquote>< a href="http://dio.me" title=" Clique aqui! " target="self">Dio.me< /a> - para abrir na mesa aba.</blockquote></blockquote></blockquote></blockquote>
+        <blockquote><blockquote><blockquote><blockquote> < a href="http://dio.me" target="blank">Dio.me< /a> -para abrir em aba diferente.</blockquote></blockquote></blockquote></blockquote>
+        <blockquote><blockquote> <blockquote>< /li> </blockquote></blockquote></blockquote>
+        <blockquote> <blockquote> < /ul> </blockquote></blockquote>
+        <blockquote> < /body> </blockquote>
+        <p>< /html> </p>
+
+        <p>Em outro arquivo já criado, tambem podemos fazer um link para retornar, referenciando a pirmiera páina.</p>
+        <p>< html> </p>
+        <blockquote> < head>< title> Meu Primeiro HTML < /title> < /head>	</blockquote>
+        <blockquote> < body> </blockquote>
+        <blockquote> <blockquote> < ul> </blockquote></blockquote>
+        <blockquote><blockquote> <blockquote>< li> </blockquote></blockquote></blockquote>
+        <blockquote><blockquote><blockquote><blockquote>< a href="Meu primeiro HTML" title=" Clique aqui!" target="self">< Voltar < /a> - para abrir na mesa aba.</blockquote></blockquote></blockquote></blockquote>
+        <blockquote><blockquote> <blockquote>< /li> </blockquote></blockquote></blockquote>
+        <blockquote> <blockquote> < /ul> </blockquote></blockquote>
+        <blockquote> < /body> </blockquote>
+        <p>< /html> </p>
+        <h2 id="refe">Referências</h2>
+        <small><a href="#inicio">Voltar ao topo</a></small>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=nPEpaft1y1k" target="_blank">Cusro HTML Completo em (4 horas)</a></li>
+            <li><a href="https://www.ev.org.br/cursos/html-basico" target="_blank">HTML Básico</a></li>
+            <li><a href="https://www.casadocodigo.com.br/collections/front-end-html-e-css" target="_blank">Livros de Front-End</a></li>
+            <li><a href="https://www.vlibras.com.br/10-melhores-livros-sobre-html-para-aprender-em-2023/" target="_blank">10 Melhores livros para aprender HTML em 2023</a></li>
+        </ul>    
+            
+	</body>		
+</html>			
